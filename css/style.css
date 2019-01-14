@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
     width: 100%;
     height: 500px;
     position: absolute;
@@ -9,24 +9,23 @@
     background-color: #FFFFFF;
 }
 
-.school{
+.school {
     position: absolute;
     width: 370px;
     height: 20px;
     left: 50px;
     top: 31px;
 
-    font-family: "Ubuntu";
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     font-size: 24px;
 
     color: #000000;
-    
+
 }
 
-.number{
+.number {
     position: absolute;
     width: 193px;
     height: 23px;
@@ -38,31 +37,30 @@
     font-weight: normal;
     line-height: normal;
     font-size: 24px;
-    
+
     color: #000000;
 }
 
 .logo {
     display: flex;
 
-    
+
 }
 
-.menu{
-    background-image: 
+.menu {
+    width: 300px;
 
-width: 300px;
+    height: 300px;
 
-height: 300px;
-
-margin: 0 auto;
+    margin: 0 auto;
 
     margin-top: 0px;
 
-background-position: center;
+    background-position: center;
 
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
 
-margin-top: 50px;
+    margin-top: 50px;
 
-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
