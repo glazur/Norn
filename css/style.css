@@ -11,9 +11,7 @@
 
 .school {
     position: relative;
-
     flex: 1;
-
     margin-left: 50px;
     margin-top: 31px;
     font-family: "Ubuntu";
@@ -27,7 +25,6 @@
 
 .number {
     position: relative;
-
     align-self: center;
     font-family: "Ubuntu";
     font-style: normal;
@@ -55,6 +52,19 @@
 .logo {
     margin-right: 51px;
     align-self: center;
+}
+
+.row_2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.norn {
+
+    margin-left: 51px;
+    margin-top: 109px;
+    align-self: center;
+    flex-direction: row;
 }
 
 .menu {
