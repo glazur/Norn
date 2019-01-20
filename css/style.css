@@ -82,8 +82,14 @@
 .it {
     list-style: none;
     text-decoration: none;
-    float: left;
-    margin-left: 10px;
+    display: table-cell;
+    text-align: center;
+    
+}
+
+.mn {
+    width: 50%;
+    display: table;
 }
 
 .pics {
