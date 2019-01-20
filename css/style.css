@@ -79,6 +79,13 @@
 
 }
 
+.it {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    margin-left: 10px;
+}
+
 .pics {
     width: 300px;
 
