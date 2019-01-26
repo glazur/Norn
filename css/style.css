@@ -94,9 +94,8 @@
     flex: 8;
     display: flex;
     flex-direction: column-reverse;
-    margin-left: -20%;
-    margin-top: -15%;
     align-self: flex-end;
+    margin-right: 4%;
 }
 
 .girl_top {
@@ -124,9 +123,9 @@
     flex: 6;
     display: flex;
     flex-direction: column-reverse;
-    margin-left: -20%;
-    margin-top: -15%;
     align-self: flex-end;
+    margin-right: -20%;
+    margin-left: 15%;
 }
 
 .first_rec_top {
@@ -135,16 +134,15 @@
     padding-bottom: 6%;
     margin-top: 2%;
     margin-bottom: -7%;
-    background-color: #BACBDC;
+    background-color: #435465;
     transform: rotate(45deg);
     align-self: center;
+    z-index: 2;
 }
 
 .first_rec_pic {
     display: block;
     position: relative;
-    max-width: 937px;
-    max-height: 891px;
     width: 100%;
     height: auto;
     object-fit: contain;
