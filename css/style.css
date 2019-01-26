@@ -137,6 +137,18 @@
     background-color: #435465;
     transform: rotate(45deg);
     align-self: center;
+    z-index: 3;
+}
+
+.first_rec_top_2 {
+    height: 0;
+    width: 12%;
+    padding-bottom: 12%;
+    margin-top: 4%;
+    margin-bottom: -14%;
+    background-color: #FFFFFF;
+    transform: rotate(45deg);
+    align-self: center;
     z-index: 2;
 }
 
