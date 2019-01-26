@@ -160,3 +160,15 @@
     object-fit: contain;
     z-index: 1;
 }
+
+.description {
+    position: relative;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 31px;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    align-self: center;
+}
