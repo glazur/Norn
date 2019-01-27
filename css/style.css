@@ -1,12 +1,11 @@
 .wrapper {
   width: 100%;
-  height: 100%;
+  height: 500%;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ffffff;
 }
 
 .school {
@@ -42,10 +41,14 @@
   flex: 1;
 }
 
-.row {
+.row, .row_white {
   display: flex;
   flex-direction: row;
 }
+
+.row_white {
+    background-color: #ffffff;
+  }
 
 .logo {
   margin-right: 51px;
@@ -193,4 +196,38 @@
   padding-bottom: 5px;
   padding-left: 25px;
   padding-right: 25px;
+}
+
+.girl_houses {
+    display: block;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  z-index: 5;
+  max-width: 203.52px;
+  align-self: center;
+
+}
+
+.lang_container {
+  flex: 7;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.houses_container {
+  flex: 5;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+.lang_rec {
+
+}
+
+.houses_rec {
+
 }
