@@ -112,8 +112,8 @@
 .girl_pic {
   display: block;
   position: relative;
-  max-width: 937px;
-  max-height: 891px;
+  max-width: 1075.79px;
+  max-height: 818.96px;
   width: 100%;
   height: auto;
   object-fit: contain;
@@ -126,6 +126,7 @@
   align-self: flex-end;
   margin-right: -20%;
   margin-left: 15%;
+
 }
 
 .first_rec_top {
@@ -160,6 +161,7 @@
   height: auto;
   object-fit: contain;
   z-index: 1;
+  max-height: 480px;
 }
 
 .description {
@@ -211,23 +213,59 @@
 }
 
 .lang_container {
-  flex: 7;
+  flex: 6.5;
   display: flex;
   justify-content: flex-end;
-  
+  margin-top: -18%;
+  margin-left: 15%;
 }
 
 .houses_container {
-  flex: 5;
+  flex: 5.5;
   display: flex;
   justify-content: flex-start;
-  
+  margin-top: -18%;
+  margin-right: -5%;
 }
 
 .lang_rec {
-
+  display: flex;
+  flex: 3;
+  flex-direction: row;
+  align-items: center;
+  
 }
 
 .houses_rec {
+  flex: 3;
+}
 
+.lang_rec_img_top {
+  margin-left: -12%;
+  display: block;
+  position: relative;
+  max-height: 34.88px;
+  width: 17%;
+  height: auto;
+  object-fit: contain;
+
+}
+
+.lang_rec_img {
+  display: block;
+  position: relative;
+  max-height: 211px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.houses_img {
+  display: block;
+  position: relative;
+  max-height: 203.52px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+ 
 }
