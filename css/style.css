@@ -41,7 +41,7 @@
   flex: 1;
 }
 
-.row, .row_white {
+.row, .row_white, .row_centered {
   display: flex;
   flex-direction: row;
 }
@@ -49,6 +49,11 @@
 .row_white {
     background-color: #ffffff;
   }
+
+.row_centered {
+  justify-content: center;
+  align-items: center;
+}
 
 .logo {
   margin-right: 51px;
@@ -69,7 +74,8 @@
   font-weight: 300;
   font-size: 18px;
   align-self: center;
-  margin-top: 2rem;
+  padding-top: 2rem;
+  background-color: #ffffff;
 }
 
 .menu ul {
@@ -268,4 +274,21 @@
   height: auto;
   object-fit: contain;
  
+}
+
+.mark_white_img {
+  display: flex;
+  align-self: center;
+  margin: 5%;
+}
+
+.vid {
+  display: flex;
+  align-self: center;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 24px;
+  color: #FFFFFF;
 }
