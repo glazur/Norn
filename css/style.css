@@ -41,14 +41,16 @@
   flex: 1;
 }
 
-.row, .row_white, .row_centered {
+.row,
+.row_white,
+.row_centered {
   display: flex;
   flex-direction: row;
 }
 
 .row_white {
-    background-color: #ffffff;
-  }
+  background-color: #ffffff;
+}
 
 .row_centered {
   justify-content: center;
@@ -216,7 +218,7 @@
 }
 
 .girl_houses {
-    display: block;
+  display: block;
   position: absolute;
   width: 100%;
   height: auto;
@@ -248,7 +250,7 @@
   flex: 3;
   flex-direction: row;
   align-items: center;
-  
+
 }
 
 .houses_rec {
@@ -282,7 +284,7 @@
   width: 100%;
   height: auto;
   object-fit: contain;
- 
+
 }
 
 .mark_white_img {
@@ -300,5 +302,43 @@
   line-height: normal;
   font-size: 24px;
   color: #FFFFFF;
+}
+
+.block_1 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 14px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.4);
+  padding-left: 90px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 90px;
+}
+
+.arrow {
+  margin-left: 1rem;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  margin-top: 2rem;
+}
+
+.small_square {
+  width: 10px;
+  height: 10px;
+  background-color: #FFFFFF;
+  transform: rotate(45deg);
+  align-self: center;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
