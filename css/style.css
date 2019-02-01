@@ -56,15 +56,24 @@
 }
 
 .logo {
+  position: relative;
   margin-right: 51px;
   align-self: center;
 }
 
 .norn {
-  margin-left: 51px;
-  margin-top: 3rem;
-  align-self: center;
+  position: relative;
   flex-direction: row;
+}
+
+.name {
+  font-family: Puritan;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 48px;
+  letter-spacing: 0.1em;
+  margin-left: 2rem;
 }
 
 .menu {
@@ -292,3 +301,4 @@
   font-size: 24px;
   color: #FFFFFF;
 }
+
