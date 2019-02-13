@@ -452,7 +452,3 @@ color: #000000;
   flex-direction: column;
   padding-top: 125px;
 }
-
-.header {
-  display: flex;
-}
