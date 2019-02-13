@@ -391,6 +391,8 @@
 .building {
   margin-top: 5rem;
   position: relative;
+  background-repeat: no-repeat;
+  max-width: 1510px;
 }
 
 .logo_down {
@@ -408,4 +410,45 @@
   font-size: 18px;
   color: #FFFFFF;
   margin-right: 2 rem;
+}
+
+.map {
+  position: relative;
+  background-repeat: no-repeat;
+  max-width: 1510px;
+}
+
+.blue_background {
+  margin-top: 10rem;
+  max-width: 1510px;
+}
+
+.squre_with_logo {
+position: relative;
+width: 231.75px;
+height: 231.75px;
+left: 48px;
+top: -0.13px;
+background: #BA9898;
+transform: rotate(-45deg);
+margin-top: -170px;
+}
+
+.norn_under_logo {
+height: 26px;
+font-family: Puritan;
+font-style: normal;
+font-weight: normal;
+line-height: 32px;
+font-size: 24px;
+letter-spacing: 0.1em;
+color: #000000;
+}
+
+.logo_with_norn {
+  transform: rotate(45deg);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 125px;
 }
