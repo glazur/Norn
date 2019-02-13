@@ -96,11 +96,21 @@
   list-style: none;
 }
 
-.it {
+.it,
+.it_2 {
   list-style: none;
   text-decoration: none;
   display: table-cell;
   text-align: center;
+}
+
+.it_2 {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 18px;
+  color: #000000;
 }
 
 .mn {
@@ -144,7 +154,6 @@
   align-self: flex-end;
   margin-right: -20%;
   margin-left: 15%;
-
 }
 
 .first_rec_top {
@@ -227,7 +236,6 @@
   z-index: 5;
   max-width: 203.52px;
   align-self: center;
-
 }
 
 .lang_container {
@@ -251,7 +259,6 @@
   flex: 3;
   flex-direction: row;
   align-items: center;
-
 }
 
 .houses_rec {
@@ -266,7 +273,6 @@
   width: 17%;
   height: auto;
   object-fit: contain;
-
 }
 
 .lang_rec_img {
@@ -285,7 +291,6 @@
   width: 100%;
   height: auto;
   object-fit: contain;
-
 }
 
 .mark_white_img {
@@ -302,7 +307,7 @@
   font-weight: normal;
   line-height: normal;
   font-size: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .block_1 {
@@ -314,7 +319,7 @@
   font-weight: normal;
   line-height: normal;
   font-size: 14px;
-  color: #FFFFFF;
+  color: #ffffff;
   background: rgba(0, 0, 0, 0.4);
   padding-left: 90px;
   padding-top: 30px;
@@ -337,7 +342,7 @@
 .small_square_with_margin {
   width: 10px;
   height: 10px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   transform: rotate(45deg);
   align-self: center;
   margin-left: 5px;
@@ -358,7 +363,7 @@
   line-height: normal;
   font-size: 24px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-top: 2rem;
 }
 
@@ -371,7 +376,7 @@
   line-height: 25px;
   font-size: 18px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 3rem;
   margin-right: 3rem;
   margin-bottom: 1rem;
@@ -399,7 +404,6 @@
   width: 30px;
   height: 30px;
   margin-right: 2rem;
-
 }
 
 .adress {
@@ -408,7 +412,7 @@
   font-weight: normal;
   line-height: 25px;
   font-size: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-right: 2 rem;
 }
 
@@ -423,26 +427,26 @@
   max-width: 1510px;
 }
 
-.squre_with_logo {
-position: relative;
-width: 231.75px;
-height: 231.75px;
-left: 48px;
-top: -0.13px;
-background: #BA9898;
-transform: rotate(-45deg);
-margin-top: -170px;
+.square_with_logo {
+  position: relative;
+  width: 231.75px;
+  height: 231.75px;
+  left: 48px;
+  top: -0.13px;
+  background: #ba9898;
+  transform: rotate(-45deg);
+  margin-top: -120px;
 }
 
 .norn_under_logo {
-height: 26px;
-font-family: Puritan;
-font-style: normal;
-font-weight: normal;
-line-height: 32px;
-font-size: 24px;
-letter-spacing: 0.1em;
-color: #000000;
+  height: 26px;
+  font-family: Puritan;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 32px;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  color: #000000;
 }
 
 .logo_with_norn {
