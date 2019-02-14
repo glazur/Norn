@@ -8,8 +8,12 @@
   bottom: 0;
 }
 
-a {text-decoration: none;}
-a:hover {text-decoration: overline;}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: overline;
+}
 
 .school {
   position: relative;
@@ -334,11 +338,25 @@ a:hover {text-decoration: overline;}
   margin-left: 1rem;
 }
 
-.blocks {
+.blocks,
+.blocks_timetable {
   display: flex;
   flex-direction: row;
   align-content: space-between;
   margin-top: 2rem;
+}
+
+.blocks_timetable {
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
+    #bacbdc;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  margin-top: 2rem;
+  margin-left: 50px; 
+  padding-top: 50px; 
+  padding-bottom: 50px; 
+  padding-right: 50px;
 }
 
 .small_square,
@@ -460,3 +478,96 @@ a:hover {text-decoration: overline;}
   padding-top: 125px;
 }
 
+.choice {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 100px;
+}
+
+.level_block {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  max-height: 300px;
+}
+
+.level_name {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.level_description {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.pictures {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.timetable_head {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 100px;
+}
+
+.want_to_know_date {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 1rem;
+}
+
+.month {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #000000;
+  justify-content: flex-end;
+}
+
+.course {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 14px;
+  color: #000000;
+}
+
+.blocks_timetable {
+
+}
