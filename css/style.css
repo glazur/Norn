@@ -557,6 +557,7 @@ a:hover {
   text-decoration-line: underline;
   color: #000000;
   justify-content: flex-end;
+  padding-left: 100px;
 }
 
 .course {
@@ -568,6 +569,14 @@ a:hover {
   color: #000000;
 }
 
-.blocks_timetable {
-
+.button_group {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 0px;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  
 }
