@@ -353,9 +353,9 @@ a:hover {
   flex-direction: row;
   align-content: space-between;
   margin-top: 2rem;
-  margin-left: 50px; 
-  padding-top: 50px; 
-  padding-bottom: 50px; 
+  margin-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding-right: 50px;
 }
 
@@ -569,7 +569,7 @@ a:hover {
   color: #000000;
 }
 
-.button_group {
+.btn {
   font-family: Ubuntu;
   font-style: normal;
   font-weight: normal;
@@ -577,6 +577,22 @@ a:hover {
   font-size: 14px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
-  
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: none;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contact_info {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 25px;
+  font-size: 18px;
+  color: #ffffff;
 }
