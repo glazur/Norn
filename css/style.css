@@ -533,7 +533,7 @@ a:hover {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  margin-top: 100px;
+  padding-top: 50px;
 }
 
 .want_to_know_date {
@@ -595,4 +595,14 @@ a:hover {
   line-height: 25px;
   font-size: 18px;
   color: #ffffff;
+}
+
+.what_lang {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #000000;
 }
