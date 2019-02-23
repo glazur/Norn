@@ -487,7 +487,7 @@ a:hover {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .level_block {
@@ -605,4 +605,42 @@ a:hover {
   font-size: 24px;
   text-transform: uppercase;
   color: #000000;
+}
+
+.lang_in_rect, .lang_rhomb_isl, .lang_rhomb_sw {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.to_do_test {
+  font-size: 14px;
+  font-style: normal;
+  text-decoration-line: underline;
+}
+
+.language_rhomb {
+  position: relative;
+  transform: rotate(-45deg);
+  overflow: hidden;
+  width: 180px;
+  height: 180px;
+}
+
+.norway_rect {
+  width: 180px;
+  height: 180px;
+}
+
+.lang_rhomb_isl {
+  position: absolute;
+  left: 1vw;
+  color:white;
+  transform: rotate(45deg);
+  top: 15vh;
+  z-index: 2;
 }
