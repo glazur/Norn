@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Puritan|Ubuntu" rel="stylesheet">
 </head>
 
-<body style="background-image: url(images/sea_background.svg)">
+<body style="background-image: url(images/sea_background.svg); position: relative; z-index: 500;">
   <div class="wrapper">
     <div class="row_white">
       <div class="school">школа скандинавских языков</div>
@@ -65,7 +65,9 @@
         <div style="flex: 4.5;"></div>
         <div class="lang_rec">
           <img class="lang_rec_img" src="images/lang_rec.svg" />
+
           <img class="lang_rec_img_top" src="images/lang_rec_top.svg" />
+          <span class="scandi_langs" style="right: 3vw;">íslenska<br>norsk<br>svenska<br>dansk<br>suomi</span>
         </div>
       </div>
 
@@ -85,7 +87,7 @@
       <div class="vid">КАКОЙ ВИД ОБУЧЕНИЯ ПОДОЙДЕТ ВАМ?</div>
     </div>
 
-    <div class="row">
+    <div class="row" style="padding-bottom: 150px;">
       <div class="blocks">
         <div class="block_1" style="margin-left: 50px;">
           <p>ОНЛАЙН</p>
@@ -110,13 +112,27 @@
       </div>
     </div>
 
-    <div class="blue_background">
-      <img src="images/blue_background.svg"/>
-      <div class="advantages" display: grid>
-        <img src="images/pen.png"/>
-        
-
-
+    <div style="background-image: url(images/blue_background.svg);">
+      <div class="advantages_container">
+        <div class="pen_container" style="position: relative; z-index: 100;">
+          <img src="images/pen.png" style="transform: rotate(45deg) scale(1.4);"></img>
+        </div>
+        <div>
+          <img src="images/text_rect.png" style="z-index: 200"></img>
+          <span class="our_advantages" style="top: -50%">
+            <div class="small_square"></div>
+            Квалифицированные преподаватели с<br>опытом и носители<br>
+            <div class="small_square"></div>
+            Комфортные аудитории в центре<br>
+            <div class="small_square"></div>
+            Подготовка к экзаменам<br>
+            <div class="small_square"></div>
+            Летние школы
+          </span>
+        </div>
+        <div class="big_vine_rect">
+          <div class="little_grey_rec"></div>
+        </div>
       </div>
     </div>
 
@@ -169,7 +185,7 @@
     </div>
 
     <div class="map">
-      <img src="images/map.png"/>
+      <img src="images/map.png" />
     </div>
 
   </div>

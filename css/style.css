@@ -263,9 +263,25 @@ a:hover {
 
 .lang_rec {
   display: flex;
+  position: relative;
   flex: 3;
   flex-direction: row;
   align-items: center;
+}
+
+.scandi_langs {
+  display: column;
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+  z-index: 5;
 }
 
 .houses_rec {
@@ -607,7 +623,9 @@ a:hover {
   color: #000000;
 }
 
-.lang_in_rect, .lang_rhomb_isl, .lang_rhomb_sw {
+.lang_in_rect,
+.lang_rhomb_isl,
+.lang_rhomb_sw {
   font-family: Ubuntu;
   font-style: normal;
   font-weight: normal;
@@ -639,8 +657,57 @@ a:hover {
 .lang_rhomb_isl {
   position: absolute;
   left: 1vw;
-  color:white;
+  color: white;
   transform: rotate(45deg);
   top: 15vh;
   z-index: 2;
+}
+
+.advantages_container {
+  display: grid;
+  grid-template-columns: 4fr 5fr 4fr 1fr;
+}
+
+.pen_container {
+  position: relative;
+  transform: rotate(-45deg);
+  overflow: hidden;
+  width: 380px;
+  height: 380px;
+}
+
+.big_vine_rect {
+  background: #432132;
+  transform: matrix(0.69, 0.69, -0.76, 0.69, 0, 0);
+  height: 310px;
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.little_grey_rec {
+  background: #435465;
+  transform: matrix(0.69, 0.69, -0.76, 0.69, 0, 0);
+  height: 40px;
+  width: 40px;
+  z-index: 300;
+  /* transform: rotate(-45deg); */
+
+}
+
+.our_advantages {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 25px;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  align-content: center;
+  align-items: center;
+  line-height: 2;
 }
