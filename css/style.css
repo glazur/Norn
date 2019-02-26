@@ -688,12 +688,19 @@ a:hover {
 
 .little_grey_rec {
   background: #435465;
-  transform: matrix(0.69, 0.69, -0.76, 0.69, 0, 0);
   height: 40px;
   width: 40px;
   z-index: 300;
-  /* transform: rotate(-45deg); */
+}
 
+.block_name {
+  font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 24px;
+text-align: center;
+color: #FFFFFF;
 }
 
 .our_advantages {
